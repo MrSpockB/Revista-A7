@@ -1,0 +1,27 @@
+{
+    "hpub": 1,
+    "title": "Prueba Articulo Siete",
+    "author": ["Articulo Siete"],
+    "creator": ["Articulo Siete"],
+    "date": "2013-08-19",
+    "url": "book://articulosiete.com/sites/all/demo/",
+
+    "orientation": "landscape",
+    "zoomable": false,
+
+    "-baker-rendering":"three-cards"
+    "-baker-background": "#fff",
+    "-baker-vertical-bounce": true,
+    "-baker-index-height": 200,
+    "-baker-media-autoplay": true,
+    "-baker-background-image-portrait": "images/background-portrait.png",
+    "-baker-background-image-landscape": "images/background-landscape.png",
+    "-baker-page-numbers-color": "#333",
+
+    "contents": [
+        "Cover.html",
+        "Introduction.html",
+		"fdc1.html",
+		"fdc2.html"
+     ]
+}

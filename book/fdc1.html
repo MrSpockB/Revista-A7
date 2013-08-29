@@ -1,0 +1,235 @@
+<!--
+#####################################################################
+LAKER Version 1.2 – http://www.lakercompendium.com
+#####################################################################
+#####################################################################
+This is a dossier file.
+#####################################################################
+#####################################################################
+#####################################################################
+-->
+
+
+<!DOCTYPE html>
+<html xmlns:csi="http://www.massimocorner.com/libraries/csi/" lang="de">
+<head>
+
+<!--
+############################################################################
+META information ###########################################################
+############################################################################
+-->
+
+<meta charset="utf-8">
+
+<!--Prevent pinch to zoom on iOS devices-->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+
+<!--Allow saving as a web app on the home screen on iOS Devices (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<!--If the page is saved as a web app, the statusbar will be black-translucent (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<!--Prevent phone number detection on iOS devices-->
+<meta name="format-detection" content="telephone=no" />
+
+
+<!--Title. The content of the title is displayed on the loading screen on iOS devices-->
+<title>Fecha de Caducidad</title>
+
+<!--
+############################################################################
+Stylesheets ################################################################
+############################################################################
+-->
+
+<!--Loading the main style sheet-->
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+
+<!--Loading the dossier specific css-->
+<link href="styles/dossiers/01.css" rel="stylesheet" type="text/css" />
+
+<!--
+############################################################################
+Javascripts ################################################################
+############################################################################
+-->
+
+<script src="js/Hyphenator.js" type="text/javascript"></script>
+<script src="js/jquery-1.5.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/tmt_core.js"></script>
+<script type="text/javascript" src="js/tmt_net.js"></script>
+<script type="text/javascript" src="js/tmt_csi.js"></script>
+<script src="js/jquery.touchSwipe-1.2.1.js" type="text/javascript"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+<!--Mandatory JavaScripts (Uncomment if not used to speed up performance)
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+-->
+
+</head>
+
+<body>
+
+<!--
+############################################################################
+"Table of content" in navigation bar #######################################
+############################################################################
+-->
+
+<div class="nav-bar">
+	<div class="nav-bar-container">
+		
+        <a href="#Inhaltsverzeichnis" class="nav-button toc"><div class="toc-label">Inhaltsverzeichnis</div>
+		
+        <div class="toc-list">
+			<!--Include "Table of content" from external file-->
+			<div id="includeTOC" csi:src="inc/toc.html"></div>
+		</div><!--Div toc-list-->
+		</a>
+        
+	</div><!--Div nav-bar-container-->
+</div><!--Div nav-bar-->
+
+<!--
+############################################################################
+End "Table of content" in navigation bar ###################################
+############################################################################
+-->
+
+
+<!--
+############################################################################
+Start dossier navigation in navigation bar #################################
+############################################################################
+-->
+
+<!--Include the small logo and the cover link-->
+<div id="includeLogoAndCoverlink" csi:src="inc/logo-coverlink.html"></div>
+
+<!--Link to the next dossier-->
+<a href="fdc2.html" class="nav-button next">
+	<div class="nav-button-text">Next Dossier</div>
+</a>
+
+<!--Link to the previous dossier. It's the first page, so we don't need that one.
+<a href="001.html" class="nav-button prev">
+	<div class="nav-button-text">Previous Dossier</div>
+</a>-->
+
+
+<!--Navigation bar edges-->
+<div class="edge-left"></div>
+<div class="edge-right"></div>
+
+<!--
+############################################################################
+End dossier navigation in navigation bar ###################################
+############################################################################
+-->
+
+<!--Enable text hyphenation with Hyphenator.js-->
+<div class="hyphenate">
+
+
+<!--
+############################################################################
+Start content ##############################################################
+############################################################################
+-->
+
+
+<!--Dossier start image-->
+<div class="dossier-start-bg-1">
+	<img class="img-1" style="left:25px;" src="images/dossier-01/titulo_s1.jpg" width="601" height="220"/>
+	<div class="menu-top-1"><div class="btn-especial"><a id="menu-mas"></a></div>
+	<div id="menu-sup"><ul><li><a href="fdc2.html">LA DIRECTORA</a></li><li><a href="fdc1.html">LOS PROTAGONISTAS</a></li><li>LA PELÍCULA</li><li>EXTRAS</li></ul>
+	</div> 
+	<script>
+	var statusmenu=false;
+	var obj=document.getElementById("menu-mas");
+	obj.addEventListener('touchstart',function(event){
+	if(!statusmenu)
+	{
+		document.getElementById('menu-sup').style.visibility='visible';
+		statusmenu=true;
+	}
+	else
+	{
+		document.getElementById('menu-sup').style.visibility='hidden';
+		statusmenu=false;
+	}
+	},false);
+	</script>
+	</div>
+</div><!-- Div dossier-start-bg-->
+
+<!--Main content-->
+
+<!--"content-element" ensures, that content is placed within the right margins-->
+<div class="content-element">
+	<div class="full-column footer-img">
+        <div id="img-footer">
+            <img style="margin-left: 32px;" src="images/dossier-01/anaofelia_s1.jpg" width="992" />
+        </div>
+    </div>
+    <div class="full-column" style="width:992px;margin-left: 32px;background-color: #FFF;">
+        <div id="img-footer" style="padding-top:32px;">
+            <img style="margin-left: 32px;" src="images/dossier-01/titulo_anaofelia_s1.jpg" width="552" />
+        </div>
+    </div>
+    <div class="large-column float-right" style="background-color: #FFF;width: 992px;">
+        <p style="width: 712px;margin-left: 280px;">Es una de las máximas figuras de la actuación en México. <br /><br />
+    Ha trabajado con varios directores experimentados y destacados del cine nacional, como Felipe Cazals, Arturo Ripstein y Jaime Humberto Hermosillo y, también, colaborado con cineastas jóvenes. <br /><br />
+    Es la actriz más veces nominada al premio Ariel, de la Academia Mexicana de Artes y Ciencias Cinematográficas, con diecisiete candidaturas.<br /><br />
+    El Ariel lo ha ganado cuatro veces: como mejor actriz, por Naufragio (1978); así como mejor coactriz por Cadena perpetua (1979), Los motivos de Luz (1986) y La reina de la noche (1994). Además ha recibido el premio Coral del Festival del Nuevo Cine Latinoamericano de La Habana, Cuba y el premio de la Asociación de Cronistas de Espectáculos de Nueva York a la mejor actriz por Mi querido Tom Mix (1992).<br /><br />
+   		</p>
+  </div>
+  <div class="medium-column float-left">
+  	<img style="margin-left: 32px;" src="images/dossier-01/damian_s1.jpg" width="470" />
+  </div>
+  <div class="medium-column float-right">
+  	<img style="margin-left: -86px;" src="images/dossier-01/titulo_damian_s1.jpg" width="470" />
+    <p style="color: #FFF;margin-left: -40px;line-height:27px;">
+    	Es considerado uno de los mejores actores mexicanos de la actualidad, por varios colegas suyos, directores y críticos.<br /><br />
+Admirador de Germán Valdés, “Tin Tán”, la versatilidad de Damián es casi ilimitada y puede transitar con fluidez de la gracia a la tragedia. Es el actor más veces nominado al premio Ariel, y tal vez el actor mexicano con más galardones internacionales.<br /><br />
+Su carrera está marcada por un rigor creativo y una honestidad intelectual sin concesiones.
+Entre otros papeles, ha hecho el del homosexual violento, en La ciudad al desnudo (1989) y el reportero tintanesco de La leyenda de una máscara (1991). También participó en Dos crímenes (1994), Bajo California: el límite del tiempo (1998), y las ya legendarias La ley de Herodes (1999) y El infierno (2010).<br /><br />
+Por su participación como Genaro en Fecha de caducidad, fue reconocido en 2012 como mejor actor, en el Festival del Cinema Latino Americano Trieste, Italia.
+  </p>
+  </div>
+  <div class="full-column footer-img">
+        <div id="img-footer" style="margin-top: -5px;">
+            <img style="margin-left: 32px;" src="images/dossier-01/marisol_s1.jpg" width="992" />
+        </div>
+  </div>
+  <div class="full-column footer-img" style="background-color: #FFF;margin-top: 68px;width: 992px;margin-left: 32px;">
+        <div id="img-footer" style="margin-top: 68px;margin-left: 128px;">
+            <img style="margin-left: 32px;" src="images/dossier-01/titulo_marisol_s1.jpg" width="406" />
+        </div>
+        <p style="width: 354px;margin-left: 160px;float:left;">Desde niña comenzó su carrera como actriz de teatro y televisión. Estudió artes circenses en la École de Cirque de Verdun, en Canadá
+Su primera experiencia con el cine fue La primavera (2006), cortometraje estadounidense premiado en varios festivales de Estados Unidos. 
+Es la protagonista de La última mirada (2006), opera prima de Patricia Arriaga Jordán, ganadora del premio del público al mejor largometraje mexicano durante el 21º Festival Internacional de Cine de Guadalajara (FICG). 
+  </p>
+  <p style="width: 354px;margin-right: 40px;float:right;">Por ese mismo filme, Marisol fue premiada como mejor actriz revelación durante el Puerto Vallarta Film Festival y con la Diosa de Plata María Félix, de la asociación Periodistas Cinematográficos de México (PECIME). 
+Entre su filmografía están el cortometraje Mujeres X (2007); igual que los largos Sincronía (2009); Lluvia de luna (2011) y Bacalar (2012).
+
+  </p>
+  </div>
+    
+</div>
+
+
+  <!--
+############################################################################
+End of content #############################################################
+############################################################################
+-->
+  
+  
+
+</div><!--Div hyphenate-->
+
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!--
+#####################################################################
+LAKER Version 1.2 – http://www.lakercompendium.com
+#####################################################################
+#####################################################################
+This is a dossier file.
+#####################################################################
+#####################################################################
+#####################################################################
+-->
+
+
+<!DOCTYPE html>
+<html xmlns:csi="http://www.massimocorner.com/libraries/csi/" lang="de">
+<head>
+
+<!--
+############################################################################
+META information ###########################################################
+############################################################################
+-->
+
+<meta charset="utf-8">
+
+<!--Prevent pinch to zoom on iOS devices-->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+
+<!--Allow saving as a web app on the home screen on iOS Devices (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<!--If the page is saved as a web app, the statusbar will be black-translucent (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<!--Prevent phone number detection on iOS devices-->
+<meta name="format-detection" content="telephone=no" />
+
+
+<!--Title. The content of the title is displayed on the loading screen on iOS devices-->
+<title>Fecha de Caducidad</title>
+
+<!--
+############################################################################
+Stylesheets ################################################################
+############################################################################
+-->
+
+<!--Loading the main style sheet-->
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+
+<!--Loading the dossier specific css-->
+<link href="styles/dossiers/01.css" rel="stylesheet" type="text/css" />
+
+<!--
+############################################################################
+Javascripts ################################################################
+############################################################################
+-->
+
+<script src="js/Hyphenator.js" type="text/javascript"></script>
+<script src="js/jquery-1.5.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/tmt_core.js"></script>
+<script type="text/javascript" src="js/tmt_net.js"></script>
+<script type="text/javascript" src="js/tmt_csi.js"></script>
+<script src="js/jquery.touchSwipe-1.2.1.js" type="text/javascript"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+<!--Mandatory JavaScripts (Uncomment if not used to speed up performance)
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+-->
+
+</head>
+
+<body>
+
+<!--
+############################################################################
+"Table of content" in navigation bar #######################################
+############################################################################
+-->
+
+<div class="nav-bar">
+	<div class="nav-bar-container">
+		
+        <a href="#Inhaltsverzeichnis" class="nav-button toc"><div class="toc-label">Inhaltsverzeichnis</div>
+		
+        <div class="toc-list">
+			<!--Include "Table of content" from external file-->
+			<div id="includeTOC" csi:src="inc/toc.html"></div>
+		</div><!--Div toc-list-->
+		</a>
+        
+	</div><!--Div nav-bar-container-->
+</div><!--Div nav-bar-->
+
+<!--
+############################################################################
+End "Table of content" in navigation bar ###################################
+############################################################################
+-->
+
+
+<!--
+############################################################################
+Start dossier navigation in navigation bar #################################
+############################################################################
+-->
+
+<!--Include the small logo and the cover link-->
+<div id="includeLogoAndCoverlink" csi:src="inc/logo-coverlink.html"></div>
+
+<!--Link to the next dossier-->
+<a href="fdc1.html" class="nav-button next">
+	<div class="nav-button-text">Next Dossier</div>
+</a>
+
+<!--Link to the previous dossier. It's the first page, so we don't need that one.
+<a href="001.html" class="nav-button prev">
+	<div class="nav-button-text">Previous Dossier</div>
+</a>-->
+
+<!--Implementing the Dossier-Number-->
+<div id="dossier-number" class="dossier-number"><p>01</p></div>
+
+<!--Navigation bar edges-->
+<div class="edge-left"></div>
+<div class="edge-right"></div>
+
+<!--
+############################################################################
+End dossier navigation in navigation bar ###################################
+############################################################################
+-->
+
+<!--Enable text hyphenation with Hyphenator.js-->
+<div class="hyphenate">
+
+
+<!--
+############################################################################
+Start content ##############################################################
+############################################################################
+-->
+
+
+<!--Dossier start image-->
+<div class="dossier-start-bg">
+	<div id="imgscroll-content">
+		<div id="imgscroll-imgs">
+			<div class="imgscroll-img" id="imgscroll-img">
+                <img src="images/dossier-01/dossier-start-bg.png" width="1024" />
+             </div>
+             <div class="imgscroll-img" id="imgscroll-img">
+                <img src="images/dossier-01/foto2.png" width="1024" />
+             </div>
+             <div class="imgscroll-img" id="imgscroll-img">	
+                <img src="images/dossier-01/foto3.png" width="1024" />
+             </div>
+     	</div>
+     </div>
+     <script src="js/imgscroll.js" type="text/javascript"></script>
+	<div class="menu-top"><div class="btn-especial"><a id="menu-mas"></a></div>
+    <div id="menu-sup"><ul><li><a href="fdc2.html">LA DIRECTORA</a></li><li><a href="fdc1.html">LOS PROTAGONISTAS</li><li>LA PELÍCULA</li><li>EXTRAS</li></ul>
+    </div>
+    <script>
+	var statusmenu=false;
+	var obj=document.getElementById("menu-mas");
+	obj.addEventListener('touchstart',function(event){
+	if(!statusmenu)
+	{
+		document.getElementById('menu-sup').style.visibility='visible';
+		statusmenu=true;
+	}
+	else
+	{
+		document.getElementById('menu-sup').style.visibility='hidden';
+		statusmenu=false;
+	}
+	},false);
+	</script>
+    </div>
+    <div class="icon-swipe">
+    	<img src="images/swipe.png" width="103" height="73" />
+    </div>
+</div><!-- Div dossier-start-bg-->
+
+<!--Main content-->
+
+<!--"content-element" ensures, that content is placed within the right margins-->
+<div class="content-element">
+<div class="full-column texto-inicial" style="background-color: #FFF;width:999px;">
+	<div id="images">
+    	<img class="img-1" src="images/dossier-01/consumo_preferente.jpg" width="250" />
+        <a id="btn-mas"><img src="images/dossier-01/mas.png" width="20" /></a>
+    	<img class="img-1" style="top:-5px;height:210px;" src="images/dossier-01/foto_kenya.png" width="250" />
+        <div id="txt-hidden">
+        <p>
+        “Me interesa la vida cotidiana como un escenario donde toman forma nuestras obsesiones y se forjan nuestros prejuicios, que luego son espejos deformantes de las personalidades de los otros y orígenes de múltiples situaciones absurdas”, ha escrito la directora sobre su propio trabajo.</p>
+        <a id="btn-menos"><img src="images/dossier-01/cerrar.png" width="15" height="15" /></a>
+        </div>
+        <script>
+		var btnmenos=document.getElementById("btn-menos");
+		var btnmas=document.getElementById("btn-mas");
+		btnmas.addEventListener('touchstart',function(event){
+			document.getElementById('txt-hidden').style.visibility='visible';
+		},false);
+		btnmenos.addEventListener('touchstart',function(event){
+			document.getElementById('txt-hidden').style.visibility='hidden';
+		},false);
+	</script>
+    </div>
+	<p class="par-txt">
+    La vida de una anciana viuda, Ramona, se desequilibra cuando desaparece su único hijo, de nombre Osvaldo. La búsqueda la lleva a pensar que Genaro, un multiusos maniaco que colecciona la nota roja, está relacionado con la desaparición. En esas aparece Mariana, una vecina joven y atractiva, quien parece huir de algo y quien dirige a Ramona a nuevas pistas. Los protagonistas acabarán en la mira de la obsesiva y paranoica madre.<br /><br />
+Cualquier parecido con la realidad es coincidencia. La historia es la del multipremiado primer largometraje de la cineasta tapatía Kanya Márquez, que se estrenará el 30 de agosto en el Distrito Federal y se prevé que llegue a los cines de otras ciudades, como Guadalajara, durante la segunda semana de septiembre.
+</p>
+</div>
+
+<div class="medium-column float-left" style="margin-left:64px;">
+	<p class="texto-inicial txt-esp">Los tres personajes principales del filme son interpretados por tres prestigiosos veteranos de la actuación mexicana: Ofelia Murguía encarna a Ramona; Damián Alcázar a Genaro y Marisol Centeno ocupa el alma de Mariana.<br /><br />
+“Los personajes principales aparecieron de modo natural, junto con las ironías que los rodeaban y después vino la necesidad de encontrar una forma de narrar congruente con los vínculos, inadvertidos en un primer momento, que unen a Ramona, Genaro y Mariana”, ha dicho la directora, quien junto con Alfonso Suárez es también la guionista.<br /><br />
+Kenya Márquez tiene un oficio largo y prestigioso en el mudo del cine, donde ha realizado varios cortometrajes. Entre ellos están Cruz (1998, premio a la mejor opera prima en el I Festival Internacional de Cortometraje de la Ciudad de México en 1998 y con la nominación al premio Ariel 1999 al mejor cortometraje de ficción) 
+</p>
+</div>
+<div class="medium-column float-right" style="margin-right:64px;">
+	<p class="texto-inicial">y La mesa servida (2001, premio al mejor cortometraje del Festival Internacional de Nueva York).<br /><br />
+Producido por la misma Kenya Márquez y Karla Uribe, a quienes se sumó Héctor Zubieta (en la producción ejecutiva), Fecha de caducidad, se estrenó durante el 9º Festival Internacional de Cine de Morelia, el 18 de octubre de 2011, y desde entonces ha obtenido catorce premios en festivales nacionales e internacionales.
+Su elenco está integrado también por los actores Marta Aura, Eduardo España,  Jorge Zarate, Catalina López, Laura de Hita, Eduardo Villalpando.<br /><br />
+En la historia, el destino ubica a los personajes “en la frontera frágil que separa la vida cotidiana —en apariencia ordenada, estable, racional y consciente—, y su revés —desequilibrado, irracional y subconsciente”, afirma su realizadora.<br /><br />
+
+</p>
+</div>
+
+<div class="full-column footer-img">
+	<div id="img-footer">
+    	<img src="images/dossier-01/lata_s1.jpg" width="1024" />
+    </div>
+    <div id="twt-img"></div>
+</div>
+
+
+  <!--
+############################################################################
+End of content #############################################################
+############################################################################
+-->
+  
+  
+
+</div><!--Div hyphenate-->
+
+</body>
+</html>
