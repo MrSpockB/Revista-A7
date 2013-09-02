@@ -17,56 +17,12 @@ px      68    160    252    344    436    528    620    712    804    896
 	
 .dossier-start-bg {
 	padding-top:0;
-	height:538px;
+	height:657px;
 	}
 
 .content-element
 {
 	width:1024px;
-}
-.columna-vacia
-{
-	background-color:#EC0030;
-	height:1680px;
-	width:298px;
-	margin-left:33px;
-	padding-top:60px;
-}
-.columna
-{
-	background-color:#EC0030;
-	height:1444px;
-	width:298px;
-	margin-left:33px;
-	margin-top:-5px;
-}
-.columna1
-{
-	background-color:#EC0030;
-	height:900px;
-	width:298px;
-	margin-left:33px;
-	margin-top:-5px;
-}
-.columna2
-{
-	background-color:#EC0030;
-	height:1100px;
-	width:298px;
-	margin-left:33px;
-	margin-top:-5px;
-}
-.columna3
-{
-	background-color:#EC0030;
-	height:600px;
-	width:299px;
-	margin-left:32px;
-	margin-top:-5px;
-}
-.txt-par
-{
-	width:490px;
 }
 
 /*
