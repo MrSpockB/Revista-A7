@@ -1,0 +1,165 @@
+<!--
+#####################################################################
+LAKER Version 1.2 – http://www.lakercompendium.com
+#####################################################################
+#####################################################################
+This is a dossier file.
+#####################################################################
+#####################################################################
+#####################################################################
+-->
+
+
+<!DOCTYPE html>
+<html xmlns:csi="http://www.massimocorner.com/libraries/csi/" lang="de">
+<head>
+
+<!--
+############################################################################
+META information ###########################################################
+############################################################################
+-->
+
+<meta charset="utf-8">
+
+<!--Prevent pinch to zoom on iOS devices-->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+
+<!--Allow saving as a web app on the home screen on iOS Devices (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<!--If the page is saved as a web app, the statusbar will be black-translucent (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<!--Prevent phone number detection on iOS devices-->
+<meta name="format-detection" content="telephone=no" />
+
+
+<!--Title. The content of the title is displayed on the loading screen on iOS devices-->
+<title></title>
+
+<!--
+############################################################################
+Stylesheets ################################################################
+############################################################################
+-->
+
+<!--Loading the main style sheet-->
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+
+<!--Loading the dossier specific css-->
+<link href="styles/dossiers/first.css" rel="stylesheet" type="text/css" />
+
+<!--
+############################################################################
+Javascripts ################################################################
+############################################################################
+-->
+
+<script src="js/Hyphenator.js" type="text/javascript"></script>
+<script src="js/jquery-1.5.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/tmt_core.js"></script>
+<script type="text/javascript" src="js/tmt_net.js"></script>
+<script type="text/javascript" src="js/tmt_csi.js"></script>
+<script src="js/jquery.touchSwipe-1.2.1.js" type="text/javascript"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+<!--Mandatory JavaScripts (Uncomment if not used to speed up performance)
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+-->
+
+</head>
+
+<body>
+
+<!--
+############################################################################
+"Table of content" in navigation bar #######################################
+############################################################################
+-->
+
+<div class="nav-bar">
+	<div class="nav-bar-container">
+		
+        <a href="#Inhaltsverzeichnis" class="nav-button toc"><div class="toc-label">Inhaltsverzeichnis</div>
+		
+        <div class="toc-list">
+			<!--Include "Table of content" from external file-->
+			<div id="includeTOC" csi:src="inc/toc.html"></div>
+		</div><!--Div toc-list-->
+		</a>
+        
+	</div><!--Div nav-bar-container-->
+</div><!--Div nav-bar-->
+
+<!--
+############################################################################
+End "Table of content" in navigation bar ###################################
+############################################################################
+-->
+
+
+<!--
+############################################################################
+Start dossier navigation in navigation bar #################################
+############################################################################
+-->
+
+<!--Include the small logo and the cover link-->
+<div id="includeLogoAndCoverlink" csi:src="inc/logo-coverlink.html"></div>
+
+<!--Link to the next dossier-->
+<a href="Interactivity.html" class="nav-button next">
+	<div class="nav-button-text">Next Dossier</div>
+</a>
+
+<!--Link to the previous dossier. It's the first page, so we don't need that one.
+<a href="001.html" class="nav-button prev">
+	<div class="nav-button-text">Previous Dossier</div>
+</a>-->
+
+
+<!--Navigation bar edges-->
+<div class="edge-left"></div>
+<div class="edge-right"></div>
+
+<!--
+############################################################################
+End dossier navigation in navigation bar ###################################
+############################################################################
+-->
+
+<!--Enable text hyphenation with Hyphenator.js-->
+<div class="hyphenate">
+
+
+<!--
+############################################################################
+Start content ##############################################################
+############################################################################
+-->
+
+
+<!--Dossier start image-->
+<!-- Div dossier-start-bg-->
+
+<!--Main content-->
+
+<!--"content-element" ensures, that content is placed within the right margins-->
+<div class="content-element">
+    <img src="images/imagenes-anuncios/Banner LiSTO MPG-01 2.22.gif" width="1024" />
+</div>
+
+
+  <!--
+############################################################################
+End of content #############################################################
+############################################################################
+-->
+  
+  
+
+</div><!--Div hyphenate-->
+
+</body>
+</html>
