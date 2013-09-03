@@ -1,0 +1,190 @@
+<!--
+#####################################################################
+LAKER Version 1.2 – http://www.lakercompendium.com
+#####################################################################
+#####################################################################
+This is a dossier file.
+#####################################################################
+#####################################################################
+#####################################################################
+-->
+
+
+<!DOCTYPE html>
+<html xmlns:csi="http://www.massimocorner.com/libraries/csi/" lang="de">
+<head>
+
+<!--
+############################################################################
+META information ###########################################################
+############################################################################
+-->
+
+<meta charset="utf-8">
+
+<!--Prevent pinch to zoom on iOS devices-->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+
+<!--Allow saving as a web app on the home screen on iOS Devices (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<!--If the page is saved as a web app, the statusbar will be black-translucent (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<!--Prevent phone number detection on iOS devices-->
+<meta name="format-detection" content="telephone=no" />
+
+
+<!--Title. The content of the title is displayed on the loading screen on iOS devices-->
+<title>La historia de Juan y los mil hoteles</title>
+
+<!--
+############################################################################
+Stylesheets ################################################################
+############################################################################
+-->
+
+<!--Loading the main style sheet-->
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+
+<!--Loading the dossier specific css-->
+<link href="styles/dossiers/hostalia.css" rel="stylesheet" type="text/css" />
+<link href="styles/fonts.css" rel='stylesheet' type='text/css'>
+<!--
+############################################################################
+Javascripts ################################################################
+############################################################################
+-->
+
+<script src="js/Hyphenator.js" type="text/javascript"></script>
+<script src="js/jquery-1.5.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/tmt_core.js"></script>
+<script type="text/javascript" src="js/tmt_net.js"></script>
+<script type="text/javascript" src="js/tmt_csi.js"></script>
+<script src="js/jquery.touchSwipe-1.2.1.js" type="text/javascript"></script>
+
+<!--Mandatory JavaScripts (Uncomment if not used to speed up performance)
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+-->
+
+</head>
+
+<body>
+
+<!--
+############################################################################
+"Table of content" in navigation bar #######################################
+############################################################################
+-->
+
+<div class="nav-bar">
+	<div class="nav-bar-container">
+		
+        <a href="#Inhaltsverzeichnis" class="nav-button toc"><div class="toc-label">Inhaltsverzeichnis</div>
+		
+        <div class="toc-list">
+			<!--Include "Table of content" from external file-->
+			<div id="includeTOC" csi:src="inc/toc.html"></div>
+		</div><!--Div toc-list-->
+		</a>
+        
+	</div><!--Div nav-bar-container-->
+</div><!--Div nav-bar-->
+
+<!--
+############################################################################
+End "Table of content" in navigation bar ###################################
+############################################################################
+-->
+
+
+<!--
+############################################################################
+Start dossier navigation in navigation bar #################################
+############################################################################
+-->
+
+<!--Include the small logo and the cover link-->
+<div id="includeLogoAndCoverlink" csi:src="inc/logo-coverlink.html"></div>
+
+<!--Link to the next dossier-->
+<a href="Interactivity.html" class="nav-button next">
+	<div class="nav-button-text">Next Dossier</div>
+</a>
+
+<!--Link to the previous dossier. It's the first page, so we don't need that one.
+<a href="001.html" class="nav-button prev">
+	<div class="nav-button-text">Previous Dossier</div>
+</a>-->
+
+
+<!--Navigation bar edges-->
+<div class="edge-left"></div>
+<div class="edge-right"></div>
+
+<!--
+############################################################################
+End dossier navigation in navigation bar ###################################
+############################################################################
+-->
+
+<!--Enable text hyphenation with Hyphenator.js-->
+<div class="hyphenate">
+
+
+<!--
+############################################################################
+Start content ##############################################################
+############################################################################
+-->
+
+
+<!--Dossier start image-->
+<div class="dossier-start-bg">
+	<img src="images/hostalia/foto1_s1.jpg" width="1024" />
+</div><!-- Div dossier-start-bg-->
+
+<!--Main content-->
+
+<!--"content-element" ensures, that content is placed within the right margins-->
+<div class="content-element">
+	<div class="full-column">
+    	<p class="txt" style="padding-top:60px;">
+        	Se llama Juan, como varios millones en México. Es un trainer, un capacitador en varias empresas cigarreras. De lunes a sábado su hogar es un hotel. Nunca el mismo, pero en el que sea, él trata de identificar en los aromas que graba su mente la cercanía de la casa donde está su familia. La empresa le niega los viajes acompañados, como a la mayoría de los empresarios; por eso siempre duerme solo, en una estancia de más de 80 habitaciones, donde los vecinos le son desconocidos.<br/><br/>
+	Juan es un cuarentón de piel muy blanca y ojos color café claro, que se esconden tras unos lentes rectangulares al nivel de las cejas. No le gusta vestir de traje, pero se considera un hombre bien vestido: por lo menos siempre trae bien boleados los zapatos y una corbata azul.<br/><br/>
+	Sus hijos lo ven poco. Su actividad profesional le aleja de las sopas tradicionales, por lo que se ha acostumbrado a comer ensaladas y omelettes. Se mantiene fuera de casa, de hotel en hotel en hotel. Si tiene suerte descansa los domingos.
+	“Soy un cliente frecuente y hasta me dan la misma habitación, y ya no es necesario que haga una petición de ciertos alimentos, porque conocen mis gustos”, relata.<br/><br/>
+	Juan recibe constantemente correos con promociones de los hospedajes, unos que él mismo califica de malos y otros que hasta recomienda. “Me gusta que se aprendan mi nombre y recibir un trato preferencial”.<br/><br/>
+        </p>
+        <img style="margin-left:1px;" src="images/hostalia/foto2_s1.jpg" width="1024"/>
+        <p class="txt" style="margin-top:40px">
+        	También le gustan los sitios exclusivos, donde pueda descansar. En Guadalajara existen varios hoteles ejecutivos, dice, pero pocos versátiles, que reciban a ejecutivos y además a familias de turistas. En esta ciudad Juan prefiere a Hostalia Hotel Expo & Business Class, un hotel cuatro estrellas.<br/><br/>
+	Cuando contrata un hotel para Juan, la cigarrera para la que trabaja se asesora de que el espacio tenga salones para conferencias, ya que Juan cita a los ejecutivos en los hoteles donde se hospeda, para impartir sus cursos sobre ventas, prestaciones, objetivos y procesos de distribución.<br/><br/>
+	“Busco que el hotel cumpla lo esencial: comodidad, mesa de trabajo, acondicionamiento y rapidez en todo los servicios, especialmente en la recepción”. La casa que Juan casi no visita está en Tepic, Nayarit, y los sitios a donde va más por su trabajo son la Ciudad de México; León, Guanajuato y Guadalajara, Jalisco. Pocas veces sale del país.
+	Para Juan es muy difícil estar con su familia en los momentos importantes, como los cumpleaños de sus hijos; por esos todas las noches habla con ellos, por teléfono o internet.<br/><br/>
+	En su cartera de piel, este ejecutivo carga más de diez fotos de su prole y a la hora de dormir en alguna habitación fría y solitaria, decide abrir en dos la cartera y ponerla sobre la mesa. “Mira, este es Carlos, mi hijo el más grande; aquí esta una de Alex, el que sigue, y por supuesto, mi esposa Gaby”.<br/><br/>
+        </p>
+        <img style="margin-left:1px;" src="images/hostalia/foto3_s1.jpg" width="1024"/>
+        <p class="txt" style="margin-top:40px">
+        	Entre tanto viaje y tantos hoteles, a Juan le sucede que a veces olvida sus pertenencias en una habitación; que ya dejó su cargador de celular, que ya el cepillo de dientes, que algún cuaderno, una prenda de vestir... Por eso siempre busca un hospedaje de confianza, donde lo conozcan bien.<br/><br/>
+	Después de 20 años de viajes y hoteles, también exige otras cosas “un sitio bien ubicado, con deliciosos desayunos, buen trato y la indispensable herramienta de trabajo que es internet”.<br/><br/>
+	Justo eso le brinda Hostalia Hotel Expo & Business Class, que está en la Avenida Lázaro Cárdenas Poniente #2780, a sólo un kilómetro de la Expo Guadalajara y a 25 minutos del Aeropuerto Internacional de Guadalajara.<br/><br/>
+	Por supuesto, el hotel siempre se queda en su lugar. Juan vuelve a él de cuando en cuando. La rara vez que no duerme fuera también está contento, pues se encuentra con su familia, aunque esto ocurre muy poco, cuando mucho 100 días del año.
+        </p>
+         <img style="margin-left:1px;" src="images/hostalia/infografia_s1.jpg" width="1024"/>
+    </div>
+</div>
+
+
+  <!--
+############################################################################
+End of content #############################################################
+############################################################################
+-->
+  
+  
+
+</div><!--Div hyphenate-->
+
+</body>
+</html>

@@ -16,7 +16,7 @@ px      68    160    252    344    436    528    620    712    804    896
 body {
 	
 	background-color:#000;
-	
+	width:768px;
 	}
 	
 .content-element a {
@@ -24,12 +24,13 @@ body {
 	}
 	
 .dossier-start-bg {
-	background-image:url(../../images/cover/dossier-start-bg.jpg);
 	text-align:center;
+	width:768px;
+	height:1024px;
+	padding-top:0;
 	}
 	
 .dossier-start-bg img {
-	margin-top:100px;
 	}
 
 

@@ -1,3 +1,4 @@
+
 {
     "hpub": 1,
     "title": "Prueba Articulo Siete",
@@ -20,8 +21,17 @@
 
     "contents": [
         "Cover.html",
-        "Introduction.html",
+        "callos.html",
+		"fdc0.html",
 		"fdc1.html",
-		"fdc2.html"
+		"fdc2.html",
+		"fdc3.html",
+		"chicles.html",
+		"patria.html",
+		"san-juan.html",
+		"textil.html",
+		"hostalia.html",
+		"osorno.html",
+		"infografia.html"
      ]
 }

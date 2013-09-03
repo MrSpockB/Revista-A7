@@ -49,7 +49,7 @@ Stylesheets ################################################################
 
 <!--Loading the dossier specific css-->
 <link href="styles/dossiers/san-juan.css" rel="stylesheet" type="text/css" />
-
+<link href="styles/fonts.css" rel='stylesheet' type='text/css'>
 <!--
 ############################################################################
 Javascripts ################################################################
@@ -62,7 +62,6 @@ Javascripts ################################################################
 <script type="text/javascript" src="js/tmt_net.js"></script>
 <script type="text/javascript" src="js/tmt_csi.js"></script>
 <script src="js/jquery.touchSwipe-1.2.1.js" type="text/javascript"></script>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
 <!--Mandatory JavaScripts (Uncomment if not used to speed up performance)
 <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
@@ -150,18 +149,73 @@ Start content ##############################################################
 <!--"content-element" ensures, that content is placed within the right margins-->
 <div class="content-element">
     <div class="medium-column float-left">
-    <p>Ni en Chapala ni en Michoacán.</p>
-    <p>
+    <p class="txt-sub">Ni en Chapala ni en Michoacán.</p>
+    <p class="txt-primero">
     Dicen que el caldo de pescado michi lo inventó un japonés, en el zoco de tablitas que en la primera mitad del siglo XX estuvo a un costado de lo hoy es el mercado Libertad. Hideki “Jorge” Nakashima es uno de los que sostienen esa versión. Afirma que el caldo es autoría de un señor Seki, quien compartió la receta con sus paisanos, obligados a migrar de la frontera norte a Guadalajara, durante la Segunda Guerra Mundial. Entre los recién llegados estaba el padre de “Jorge”. Igual que otros nipones, se hizo de un puesto en el mercado de tablitas y, luego, en el segundo piso de San Juan de Dios.<br /><br />
 La verdad es que muchos acá se jactan de haber inventado una sopa o de haberle puesto el toque especial a una que ya existía. “Este es el mercado de los caldos”, afirma Chalío Arredondo, de la cuarta generación de propietarios de la Birriería Guadalajara, en los locales 660 y 661. El mercader invita a revisar la carta de los restaurantes del segundo piso, donde abundan los cocidos de vaca, levantamuertos, consomés de aves, panza de res y camarón y, por supuesto, los cócteles fríos de mariscos, y donde el pozole del finado don “Guille” ha sido famoso varios decenios.
     </p>
     </div>
     <div class="medium-column float-right">
     <img src="images/san-juan/olla_s1.jpg" width="405"/>
-    <p>María Teresa Domínguez </p>
-	<p>Heredera de la fonda Don José</p>
-	<p>“Todos salimos de este puesto. Yo estudié para enfermera, mi hermana María de Jesús, Rosalba y Laura son maestras; José es ingeniero; Luis, músico; Fernando, licenciado y Gina licenciada en turismo. Mi papá nos sacó del mercado cuando éramos adolescentes y los limoneros nos empezaron a echar las flores. A él se le hacían poca cosa. Ahora aquellos limoneros son ricos”.</p>
+    <img style="margin-top:-5px;" src="images/san-juan/recuadro1_s1.jpg" width="405"/>
+    </div>
+    <div class="full-column" style="width:1024px;height:689px;">
+    	<div id="imgscroll-content">
+		<div id="imgscroll-imgs">
+			<div class="imgscroll-img" id="imgscroll-img">
+                <img src="images/san-juan/1a_s1.jpg" width="1024" />
+             </div>
+             <div class="imgscroll-img" id="imgscroll-img">
+                 <img src="images/san-juan/1b_s1.jpg" width="1024" />
+             </div>
+             <div class="imgscroll-img" id="imgscroll-img">	
+                 <img src="images/san-juan/2a_s1.jpg" width="1024" />
+             </div>
+             <div class="imgscroll-img" id="imgscroll-img">	
+                 <img src="images/san-juan/3b_s1.jpg" width="1024" />
+             </div>
+     	</div>
+     </div>
+     <script src="js/imgscroll.js" type="text/javascript"></script>
+    </div>
+    <div class="full-column" style="width: 1024px;background-color: #FFEC00;margin-top: -5px;">
+    	<p style="padding-top: 60px;width: 773px;margin-left: 220px;">
+        Chalío habla con conocimiento de causa. Su bisabuelo, Rosalío, también comenzó en el mercado de tablitas y él tiene parientes en 60 de los 91 mercados de la ciudad.<br /><br />
+El birriero fue de la práctica a la teoría, cuando para titularse como comunicólogo, escribió una tesis sobre los mercados tapatíos, con muy mal pronóstico, por cierto: de 91 que existen en la capital de Jalisco sólo diez son sustentables. Hoy la gente abarrota los súper trasnacionales y prefiere restaurantes que parecen asépticos.<br /><br />
+Son las dos de la tarde y un olor guisado se expande por el segundo piso del San Juan de Dios, llega a las relojerías la planta baja y perfuma los primeros puestos de ropa del tercer nivel. El aroma es una majadería para los que tienen hambre y una invitación a pecar para los que ya comieron. Ceviche de camarón, carne de puerco con chile,  moronga, chiles rellenos, patas de mula en su concha, tortillas recién hechas, tortitas de papa, tostadas de jaiba, nopales con huevo, frijoles refritos, pescado frito, arroz colorado, pepián, picadillo, menudo, birria, pozole, caldo michi…
+        </p>
+        <img style="margin-top:40px;margin-bottom:-5px;" src="images/san-juan/2b_s1.jpg" width="1024" />
+    </div>
+    <div class="medium-column float-left">
+    <p class="txt-primero" style="margin-top:40px;margin-left:86px;">
+    Sólo la carta de don José, Domínguez (1919-1998), uno de los fundadores del área de gourmet popular, tiene 32 guisos. Su hija, la enfermera María Teresa, cuenta que en 1958 su padre tenía una lechería, en el local 785. Sus clientes empezaron a pedirle chocolate; luego querían avena, luego pan, luego desayunos…<br /><br />
+“Un día mi papá se accidentó y mis hermanos tuvieron que atender el negocio. Para entonces la gente ya preguntaba por carne asada. Ellos fundaron la fonda Don José, con dos o tres comidas. La carne de puerco con chile viene desde entonces”, dice la heredera del puesto que hoy ocupa cinco locales, donde unas quince trabajadoras menean las cazuelas hirvientes.<br /><br />
+Para los autores del caldo michi hacerse de un puesto en el mercado no surgió de coincidencias tan felices. La sociedad Mexicana de Japonología relata que la segunda gran emigración de japoneses a la frontera norte de México ocurrió entre 1920 y 1935. Durante la segunda Segunda Guerra Mundial, los alrededor de seis mil japoneses fronterizos fueron considerados un peligro para Estados Unidos y expulsados al Distrito Federal y Guadalajara, según el investigador del Instituto Nacional de Antropología e Historia, Sergio Hernández Galindo.
 
+    </p>
+    </div>
+    <div class="medium-column float-right">
+    <p style="margin-top:40px;margin-left:-30px;">
+    80 de los que llegaron a Guadalajara fueron pupilos de don Seki en el asunto del caldo michi que, en japonés, significa nada menos que “camino”.<br /><br />
+A finales de los años 50, cuando empezó a funcionar el segundo piso del mercado, las charlas en japonés eran comunes, recuerda Emi Teshiba, de 72 años de edad, quien no aprendió el idioma de sus padres, pero sí la gracia de la sopa de pescado.<br /><br />
+“Jorge” Nakashima, quien habla japonés suficiente “para darse a entender” enumera los apellidos de algunos chef  de San Juan de Dios: Takeo, Nagatome, Yokogahua, Morilla. Igual que su vecino de local, Chalío, el cocinero teme que la soledad de los mercados extinga al más popular invento japonés para México, pues, afirma, ahora llegan pocos a comer. “Hace unos años, el 12 de octubre y el 1 de mayo, había que rebanar kilos y kilos de verduras desde un día antes. Ahora la gente no respeta ni la cuaresma”.
+    </p>
+    </div>
+    <div class="full-column" style="width:1024px;">
+    	<img style="margin-bottom:-5px;" src="images/san-juan/3a_s1.jpg" width="1024px;" />
+    </div>
+    <div class="medium-column float-left" style="width: 512px;height: 535px;background-color: #FFEC00;margin-right:0;">
+    </div>
+    <div class="medium-column float-right" style="width: 512px;background-color: #FFEC00;">
+    <p style="padding-top: 40px;width: 470px;margin-left: -20px;">
+    Es cierto que el área de nutrición del mercado luce vacía, pero también luce viva.<br /><br />
+Con la convicción de que para conocer una ciudad hay que ir su mercado, de que los comerciantes siempre dicen que les va de la fregada y de que el comercio popular está en extinción, Chalío Arredondo cruza los dedos para que el olor a michi, birria y los otros caldos del Libertad continúe despertando el apetito de los visitantes.<br /><br />
+Acá por cierto, se aplica muy bien el refrán “panza llena, corazón contento” y es común que muchos comerciantes tengan parentesco, entre ellos. El amor y la calentura también corren por las venas del mercado Libertad, pero esa es una historia aparte.<br /><br />
+    </p>
+    </div>
+	<div class="full-column">
+    	<img style="margin-bottom:-5px;" src="images/san-juan/afilador_s1.jpg" width="1024" />
+        <img src="images/san-juan/infografia_s1.jpg" width="1024" />
     </div>
 </div>
 

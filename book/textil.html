@@ -1,0 +1,207 @@
+<!--
+#####################################################################
+LAKER Version 1.2 – http://www.lakercompendium.com
+#####################################################################
+#####################################################################
+This is a dossier file.
+#####################################################################
+#####################################################################
+#####################################################################
+-->
+
+
+<!DOCTYPE html>
+<html xmlns:csi="http://www.massimocorner.com/libraries/csi/" lang="de">
+<head>
+
+<!--
+############################################################################
+META information ###########################################################
+############################################################################
+-->
+
+<meta charset="utf-8">
+
+<!--Prevent pinch to zoom on iOS devices-->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+
+<!--Allow saving as a web app on the home screen on iOS Devices (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<!--If the page is saved as a web app, the statusbar will be black-translucent (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<!--Prevent phone number detection on iOS devices-->
+<meta name="format-detection" content="telephone=no" />
+
+
+<!--Title. The content of the title is displayed on the loading screen on iOS devices-->
+<title>Entre hilos y cuentos</title>
+
+<!--
+############################################################################
+Stylesheets ################################################################
+############################################################################
+-->
+
+<!--Loading the main style sheet-->
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+
+<!--Loading the dossier specific css-->
+<link href="styles/dossiers/textil.css" rel="stylesheet" type="text/css" />
+<link href="styles/fonts.css" rel='stylesheet' type='text/css'>
+<!--
+############################################################################
+Javascripts ################################################################
+############################################################################
+-->
+
+<script src="js/Hyphenator.js" type="text/javascript"></script>
+<script src="js/jquery-1.5.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/tmt_core.js"></script>
+<script type="text/javascript" src="js/tmt_net.js"></script>
+<script type="text/javascript" src="js/tmt_csi.js"></script>
+<script src="js/jquery.touchSwipe-1.2.1.js" type="text/javascript"></script>
+
+
+<!--Mandatory JavaScripts (Uncomment if not used to speed up performance)
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+-->
+
+</head>
+
+<body>
+
+<!--
+############################################################################
+"Table of content" in navigation bar #######################################
+############################################################################
+-->
+
+<div class="nav-bar">
+	<div class="nav-bar-container">
+		
+        <a href="#Inhaltsverzeichnis" class="nav-button toc"><div class="toc-label">Inhaltsverzeichnis</div>
+		
+        <div class="toc-list">
+			<!--Include "Table of content" from external file-->
+			<div id="includeTOC" csi:src="inc/toc.html"></div>
+		</div><!--Div toc-list-->
+		</a>
+        
+	</div><!--Div nav-bar-container-->
+</div><!--Div nav-bar-->
+
+<!--
+############################################################################
+End "Table of content" in navigation bar ###################################
+############################################################################
+-->
+
+
+<!--
+############################################################################
+Start dossier navigation in navigation bar #################################
+############################################################################
+-->
+
+<!--Include the small logo and the cover link-->
+<div id="includeLogoAndCoverlink" csi:src="inc/logo-coverlink.html"></div>
+
+<!--Link to the next dossier-->
+<a href="Interactivity.html" class="nav-button next">
+	<div class="nav-button-text">Next Dossier</div>
+</a>
+
+<!--Link to the previous dossier. It's the first page, so we don't need that one.
+<a href="001.html" class="nav-button prev">
+	<div class="nav-button-text">Previous Dossier</div>
+</a>-->
+
+
+<!--Navigation bar edges-->
+<div class="edge-left"></div>
+<div class="edge-right"></div>
+
+<!--
+############################################################################
+End dossier navigation in navigation bar ###################################
+############################################################################
+-->
+
+<!--Enable text hyphenation with Hyphenator.js-->
+<div class="hyphenate">
+
+
+<!--
+############################################################################
+Start content ##############################################################
+############################################################################
+-->
+
+
+<!--Dossier start image-->
+<div class="dossier-start-bg">
+	<img src="images/textil/foto1_s1.jpg" width="1024" />
+</div><!-- Div dossier-start-bg-->
+
+<!--Main content-->
+
+<!--"content-element" ensures, that content is placed within the right margins-->
+<div class="content-element">
+	<div class="full-column">
+    <p class="txt">
+    Para conocer el universo de la creación textil en México es necesario sumergirse no sólo en la estética, sino en la destreza de las maravillosas técnicas que los artesanos practican, muchas veces desde el comienzo de sus culturas y en la actualidad.<br/><br/> 
+Los textiles mexicanos está impregnados de los secretos, las historias y la cosmovisión de distintas culturas del país. Entre los tintes —muchos extraídos de la tierra misma— se recrean sueños. Existe una conexión poderosa entre el cosmos, hilo y corazón.<br/><br/> 
+El mundo donde se hacen los textiles es la puerta para acceder a otros mundos.
+Entre las comunidades indígenas mexicanas que elaboran textiles cada una narra, a través de su indumentaria, diferentes significados del vestir: símbolos de identidad propia y colectiva, corporales, sociales y mágicos.<br/><br/>
+Además, las técnicas tradicionales son una muestra importante de la resistencia social y cultural indígena frente al mundo occidental. A través del oficio del telar y el textil varios pueblos reconstruyeron su identidad tras la colonización española y le transmitieron a la nuevas generaciones símbolos ancestrales y nuevos, a través de tejidos, tintes, bordados y brocados.<br/><br/>
+Hoy el arte textil indígena de México es una muestra de historia y cultura vivas. La mayoría de los pueblos continúa luchando por preservar su identidad.<br/><br/>
+    </p>
+    </div>
+    <img src="images/textil/foto2_s1.jpg" width="1024"/>
+    <img style="margin-left:179px;" src="images/textil/titulo1_s1.jpg" width="588" />
+    <p class="txt" style="margin-top:10px;">
+    Antes ellas hacían los hilos como ahora hacemos nuestros hijos. Los hacían ellas mismas, con la fuerza de su carne. Cuando empezó el mundo dicen que la luna se subió a un árbol. Allí estaba tejiendo, allí estaba hilando, allí en el árbol. A lo mejor así fue. “Ustedes deben de tejer”, le dijo a las primeras madres. “Ustedes deben hilar”.<br/><br/>
+Les enseñó a tejer desde allá arriba. Así fue que empezó el tejido. Así fue que empezó el brocado.Es que ni sabíamos como cardar la lana. Ella nos enseñó eso también.Tenía sus cardadoras allí arriba, su telar y su huso.No sé si tenía sus borregos ahí arriba en el árbol: tal vez allí estaban.La Luna tenía su vara para medir la urdimbre. Su komén para medir el hilo.<br/><br/>
+Era largo su komén y salía de la copa del árbol.Tejía en lo blanco de una blusa las semillas coloradas del brocado.Arriba en el árbol amanecía.Allí estiraba su urdimbre, allí arriba. Si no fuera por la luna no sabríamos tejer.Es que nos dejó dicho como hacerlo.Hizo sus lienzos, sus bastidores. Cortó las ramas del árbol e hizo su telar. Si no fuera por eso no sabríamos crecer.Así aprendieron nuestros antepasados. Cardó, hiló, tejió y así empezó el tejido antes.Dijo ella: “Así lo voy hacer para que así aprendan mis hijas”.Lo que estaba en el árbol es ahora la luna. Siguió subiendo y subiendo en el árbol, y después subió su komén como escalera y se quedó en el cielo. O a lo mejor lo hizo de un brinco, meciéndose en las ramas. Todavía tenemos su telar; quedó con nosotras. La luna nos dejó su huipil cuando se fue. Dejó su telar y su machete.Los mayordomos los cuidan y durante la fiesta sacamos los huipiles que llevaba puestos la luna cuando se hizo el mundo. Eran tan grandes que ya ni podemos tejerlos.<br/><br/>
+    </p>
+    <img style="margin-left:179px;" src="images/textil/titulo2_s1.jpg" width="588" />
+    <p class="txt" style="margin-top:10px;">
+    Las palabras tu juo significan estómago grande, que representa el origen del mundo. Es el bordado central del huipil chinanteco (de la región fronteriza entre Oaxaca y Veracruz). Esta es su historia, contada por las tejedoras.
+Antiguamente no había luz en nuestro mundo y todo estaba oscuro. Nadie veía. Todos andaban desnudos porque no se veían. En un cantar de aves llegó un viento muy fuerte y del viento del aire se cayeron dos huevos. 
+El tepezcuintle [le perro de montaña] andaba buscando las frutas que había tirado el viento y encontró los dos huevos. Los recogió rápidamente y se los llevo a donde vivía. Los envolvió en una tela y los echó en una olla. A los tres días el armadillo escuchó que lloraban unas criaturas dentro de la olla. Llamó al tepezcuintle y encontraron dos criaturas: una era hombre y otra mujer.
+Cuidaron de las criaturas, pero los niños crecieron rápido.Los niños conversaron entre ellos: “El hombre es el sol y la mujer será la luna”, dijeron.El tepezcuintle, siempre listo, oyó la plática y fue a contarle al armadillo que los dos niños que ellos habían y criado eran el sol y la luna.
+Así siguió el tepezcuintle escuchando lo que platicaban el sol y la luna. Decían que ya era tiempo de tomar su lugar, cada uno, en el cielo. Así sucedió. El día empezó a brillar y por la noche seguía la tiniebla.Poco a poco la luna iba resplandeciendo. 
+    </p>
+    <div id="imgscroll-content">
+		<div id="imgscroll-imgs">
+			<div class="imgscroll-img" id="imgscroll-img">
+                <img src="images/textil/galeria1/1_s1.jpg" width="1024" />
+             </div>
+             <div class="imgscroll-img" id="imgscroll-img">
+                 <img src="images/textil/galeria1/2_s1.jpg" width="1024" />
+             </div>
+             <div class="imgscroll-img" id="imgscroll-img">	
+                 <img src="images/textil/galeria1/3_s1.jpg" width="1024" />
+             </div>
+             <div class="imgscroll-img" id="imgscroll-img">	
+                 <img src="images/textil/galeria1/4_s1.jpg" width="1024" />
+             </div>
+     	</div>
+     </div>
+</div>
+
+
+  <!--
+############################################################################
+End of content #############################################################
+############################################################################
+-->
+  
+  
+
+</div><!--Div hyphenate-->
+
+</body>
+</html>
