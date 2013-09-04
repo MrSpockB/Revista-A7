@@ -30,7 +30,7 @@ px      68    160    252    344    436    528    620    712    804    896
 ##########################################################################
 */
 
-#imgscroll-content {
+#imgscroll-content,.imgscroll-content {
     position: relative;
     width: 100%; height: auto;
     margin-top: 0px; margin-bottom: 120px;
@@ -49,7 +49,7 @@ px      68    160    252    344    436    528    620    712    804    896
     text-transform: uppercase;
     font-family: "PTSerifBold"
 }
-#imgscroll-imgs {
+#imgscroll-imgs,.imgscroll-imgs {
     display: inline; float: left;
     width: 100%;
     margin: 0px; padding: 0px;
@@ -59,13 +59,13 @@ px      68    160    252    344    436    528    620    712    804    896
     /*apply a transfor to kick in the hardware acceleration.  Without this, the first time we add the transform you get odd rendering of the divs (half missing) */
     -webkit-transform: translate3d(0px,0px,0px);
 }
-#imgscroll-img {
+#imgscroll-img,.imgscroll-img {
     display: inline; float: left;
     width: 100%; height: auto;
     /*apply a transfor to kick in the hardware acceleration.  Without this, the first time we add the transform you get odd rendering of the divs (half missing) */
     -webkit-transform: translate3d(0px,0px,0px);
 }
-#imgscroll-img img {
+#imgscroll-img img,.imgscroll-img img {
     display: inline;
     width: 100%
 }
@@ -109,8 +109,8 @@ px      68    160    252    344    436    528    620    712
  
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) { 
 	#imgscroll-legend {    display: block }
-	#imgscroll-imgs {    width: 4000% }
-	#imgscroll-img {
+	#imgscroll-imgs,.imgscroll-imgs {    width: 4000% }
+	#imgscroll-img,i.imgscroll-img {
 	    float: left;
 	    width: 768px !important
 	}
@@ -135,10 +135,10 @@ px      68    160    252    344    436    528    620    712    804    896
 
 @media only screen and (max-device-width: 1024px) and (orientation:landscape) { 
 	#imgscroll-legend {    display: block }
-	#imgscroll-imgs {    width: 4000% }
-	#imgscroll-img {
+	#imgscroll-imgs,.imgscroll-imgs {    width: 4000% }
+	#imgscroll-img,.imgscroll-img {
 	    float: left;
-	    width: 1024px !important
+	    width: 1024px;
 	}
 }
 

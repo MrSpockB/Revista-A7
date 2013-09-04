@@ -1,7 +1,7 @@
 
 {
     "hpub": 1,
-    "title": "Prueba Articulo Siete",
+    "title": "Articulo Siete Issue #1",
     "author": ["Articulo Siete"],
     "creator": ["Articulo Siete"],
     "date": "2013-08-19",
@@ -21,17 +21,32 @@
 
     "contents": [
         "Cover.html",
+		"anuncio-gdl.html",
+		"cdc.html",
+		"anuncio-c7.html",
+		"anuncio-tlaquepaque.html",
         "callos.html",
+		"anuncio-auditorio_telmex.html",
+		"anuncio-goran_bregovic.html",
 		"fdc0.html",
 		"fdc1.html",
 		"fdc2.html",
 		"fdc3.html",
+		"anuncio-movimiento_ciudadano.html",
+		"anuncio-solfran.html",
 		"chicles.html",
+		"anuncio-barrio.html",
 		"patria.html",
+		"anuncio-pri.html",
 		"san-juan.html",
+		"anuncio-dulces_sanjuan.html",
 		"textil.html",
+		"anuncio-seasons.html",
 		"hostalia.html",
+		"anuncio-hostalia.html",
 		"osorno.html",
-		"infografia.html"
+		"anuncio-sonidero.html",
+		"infografia.html",
+		"anuncio-anuncio-ballet_folklorico.html"
      ]
 }
