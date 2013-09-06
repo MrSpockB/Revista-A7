@@ -1,7 +1,7 @@
 
 {
     "hpub": 1,
-    "title": "Articulo Siete Issue #1",
+    "title": "Articulo Siete Issue No1",
     "author": ["Articulo Siete"],
     "creator": ["Articulo Siete"],
     "date": "2013-08-19",
@@ -10,7 +10,7 @@
     "orientation": "landscape",
     "zoomable": false,
 
-    "-baker-rendering":"three-cards"
+    "-baker-rendering":"three-cards",
     "-baker-background": "#fff",
     "-baker-vertical-bounce": true,
     "-baker-index-height": 200,
@@ -46,7 +46,7 @@
 		"anuncio-hostalia.html",
 		"osorno.html",
 		"anuncio-sonidero.html",
-		"infografia.html",
+		"infgf.html",
 		"anuncio-anuncio-ballet_folklorico.html"
      ]
 }
